@@ -2,7 +2,7 @@ body {
     background: #080808;
 }
 
-#glow {
+#sky {
 
     background: #62666c; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -23,26 +23,52 @@ body {
 
 }
 
-#crowd {
-    background: transparent url(images/crowd.png) no-repeat 0 0;
-    height: 350px;
+#sky .body {
     position: relative;
-    margin: 200px auto 0 auto;
+    margin: 0 auto;
     width:940px;
 }
 
-#chris_silhouette {
-    background: transparent url(images/chris_silhouette.png) no-repeat 0 0;
-    width: 100px;
-    height: 110px;
+#crowd {
+    background: transparent url(images/crowd.png) no-repeat 0 0;
+    height: 350px;
     position: absolute;
-    top: 250px;
-    left: 370px;
+    top: 200px;
+    width: 940px;
+}
+
+
+
+#big_logo {
+    background: transparent url(images/logo_big.png) no-repeat 0 0;
+    height: 201px;
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    width: 300px;
 }
 
 #main_body {
     color: #fff;
     z-index: 10;
     position: relative;
+}
+
+#main_body > h1 {
+    margin-top: 45px;
+    font-size: 4.5em;
+    line-height: 2em;
+    color:#0ff;
+    //border: 1px solid #fff;
+    width: 560px;
+    text-align: center;
+}
+
+#main_body > h2 {
+    font-size: 3.5em;
+    line-height: 1.5em;
+    //border: 1px solid #fff;
+    width: 560px;
+    text-align: center;
 }
 
