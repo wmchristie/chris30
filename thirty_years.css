@@ -38,12 +38,20 @@ table.bg {
         position: absolute;
     }
 
+.callout.logo {
+    background-image: url(chris_logo.png);
+    height: 297px;
+    left: -36px;
+    top: 26px;
+    width: 423px;
+}
+
 .callout.title {
     background-image: url(the_first_30_years.png);
-    height: 63px;
-    left: 313px;
-    top: 35px;
-    width: 665px;
+    height: 202px;
+    right: 2px;
+    top: 5px;
+    width: 770px;
 }
 
 .callout.tickets {
@@ -60,10 +68,10 @@ table.bg {
 
 .callout.concert {
     background-image: url(concert_and_social.png);
-    height: 277px;
-    right: 20px;
-    top: 477px;
-    width: 367px;
+    height: 281px;
+    right: 24px;
+    top: 473px;
+    width: 371px;
 }
 
 .callout.date_time {
