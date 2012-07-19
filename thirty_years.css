@@ -1,0 +1,134 @@
+body {
+    background: #000;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+table.bg {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    table.bg td {
+        height: 360px;
+        padding: 0;
+    }
+
+    table.bg td.left {
+        background: #000 url(top_left_background.png) repeat-x 0 0;
+    }
+
+    table.bg td.right {
+        background: #000 url(top_right_background.png) repeat-x 0 0;
+    }
+
+.main {
+    background: #000 url(banner.jpg) no-repeat 0 0;
+    padding: 768px 0 5px 0;
+    position: relative;
+    margin: -360px auto 0;
+    width: 1024px;
+}
+
+    .main .callout {
+        background: transparent no-repeat 0 0;
+        position: absolute;
+    }
+
+.callout.title {
+    background-image: url(the_first_30_years.png);
+    height: 63px;
+    left: 313px;
+    top: 35px;
+    width: 665px;
+}
+
+.callout.tickets {
+    background-image: url(paypal.png);
+    left: 280px;
+    top: 670px;
+}
+
+.tickets a {
+    display: block;
+    height: 84px;
+    width: 330px;
+}
+
+.callout.concert {
+    background-image: url(concert_and_social.png);
+    height: 277px;
+    right: 20px;
+    top: 477px;
+    width: 367px;
+}
+
+.callout.date_time {
+    background-image: url(date_time.png);
+    height: 55px;
+    left: 10px;
+    top: 706px;
+    width: 228px;
+}
+
+.callout.coors_light {
+    background-image: url(coors_light_logo.jpg);
+    bottom: 10px;
+    height: 183px;
+    right: 10px;
+    width: 265px;
+}
+
+.musicians {
+    text-align: center;
+}
+
+.musicians h1 {
+    color: #ff0;
+}
+
+.musicians p {
+    text-align: center;
+}
+
+    .musicians span {
+        padding: 0 10px;
+    }
+
+        .musicians a {
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+
+        .musicians a:hover {
+            text-decoration: underline;
+        }
+
+        .musicians .odd a {
+            color: #0ff;
+        }
+
+        .musicians .even a {
+                color: #ff0;
+        }
+
+.location {
+    color: #0ff;
+    margin: 40px;
+    text-align: center;
+}
+
+    .location h1 {
+        font-weight: normal;
+        margin: 5px 0 0 0;
+    }
+
+    .location p {
+        font-size: 1.2em;
+        margin: 5px 0 0 0;
+    }
+
+
