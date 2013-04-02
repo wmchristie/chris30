@@ -17,9 +17,6 @@
                 bwidth = $(window).width(),
                 bheight = $(window).height(); 
 
-                console.log(bheight / 2 - pheight / 2, $(document).scrollTop());
-
-
             target.css({
                 top : (bheight / 2 - pheight / 2) + $(document).scrollTop(),
                 left : (bwidth / 2 - pwidth / 2) + $(document).scrollLeft()
